@@ -28,6 +28,8 @@ tw-passage {
 
 .enchantment-link:hover, tw-link:hover {
   color: #D3D93B;}
+.enchantment-link:visited, tw-link:hover {
+  color: #F2A679;}
 
 tw-sidebar { display: none; }
 
@@ -84,7 +86,7 @@ As you develop the map by answering questions, you&#39;ll be able to identify:
 
 (input-box:2bind $roll,&quot;=XX=&quot;)
 
-[[Next-&gt;solution question]]</tw-passagedata><tw-passagedata pid="8" name="topic question" tags="" position="168,733" size="100,100">(set: $roll to (num: $roll))
+[[Next-&gt;solution question]]</tw-passagedata><tw-passagedata pid="8" name="topic question" tags="" position="168,730" size="100,100">(set: $roll to (num: $roll))
 (if:$roll &lt;= 1)[What exactly is this topic?]
 (else-if:$roll &lt;= 2)[Why is this topic interesting?]
 (else-if:$roll &lt;= 3)[What makes this topic important?]
@@ -106,7 +108,7 @@ As you develop the map by answering questions, you&#39;ll be able to identify:
 (else-if:$roll &lt;= 19)[What questions does this topic raise?]
 (else-if:$roll &lt;= 20)[What might people be overlooking about this topic?]
 
-[Ready to ask another question?][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="9" name="stakeholders question" tags="" position="320,732" size="100,100">(set: $roll to (num: $roll))
+[Ready to ][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="9" name="stakeholders question" tags="" position="320,732" size="100,100">(set: $roll to (num: $roll))
 (if:$roll &lt;= 1)[Who is most directly impacted?]
 (else-if:$roll &lt;= 2)[What do the people directly impacted by your topic experience?]
 (else-if:$roll &lt;= 3)[How do the people directly affected by your topic currently handle the problem?]
@@ -128,7 +130,7 @@ As you develop the map by answering questions, you&#39;ll be able to identify:
 (else-if:$roll &lt;= 19)[Why might people resist (or be nervous about) addressing this topic?]
 (else-if:$roll &lt;= 20)[How might people&#39;s experiences change if this problem is solved?]
 
-[Ready to ask another question?][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="10" name="tried question" tags="" position="473,724" size="100,100">(set: $roll to (num: $roll))
+[Ready to ][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="10" name="tried question" tags="" position="473,724" size="100,100">(set: $roll to (num: $roll))
 (if:$roll &lt;= 1)[What has been tried before?]
 (else-if:$roll &lt;= 2)[How have people addressed this?]
 (else-if:$roll &lt;= 3)[What old ideas about your topic still matter?]
@@ -150,7 +152,7 @@ As you develop the map by answering questions, you&#39;ll be able to identify:
 (else-if:$roll &lt;= 19)[In past solutions, what systemic challenges existed?]
 (else-if:$roll &lt;= 20)[In past solutions, what might have been overlooked?]
 
-[Ready to ask another question?][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="11" name="solution question" tags="" position="627,719" size="100,100">(set: $roll to (num: $roll))
+[Ready to ][[ask another question?-&gt;Category]]</tw-passagedata><tw-passagedata pid="11" name="solution question" tags="" position="628,719" size="100,100">(set: $roll to (num: $roll))
 (if:$roll &lt;= 1)[What might be a new approach?]
 (else-if:$roll &lt;= 2)[What could be different?]
 (else-if:$roll &lt;= 3)[What haven&#39;t people tried?]
@@ -172,7 +174,7 @@ As you develop the map by answering questions, you&#39;ll be able to identify:
 (else-if:$roll &lt;= 19)[What new questions might this raise?]
 (else-if:$roll &lt;= 20)[What innovations might this spark?]
 
-[Ready to ask another question?][[ask another question?-&gt;Category]]</tw-passagedata></tw-storydata>
+[Ready to ][[ask another question?-&gt;Category]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
